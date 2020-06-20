@@ -11,12 +11,12 @@ if(p1_no>p2_no)
 {
 console.log("p1")
 
-document.querySelector("h1").innerHTML = "Player 1 Won The Game!"; 
+document.querySelector("h1").innerHTML = "Player 1 Won!"; 
 }
 else if(p2_no>p1_no)
 {
   console.log("p2")
-document.querySelector("h1").innerHTML = "Player 2 Won The Game!"; 
+document.querySelector("h1").innerHTML = "Player 2 Won!"; 
 }
 else
 {
