@@ -1,0 +1,106 @@
+*
+    {
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+      font:normal 28px 'Fugaz One', cursive;
+    }
+    .container
+    {
+      margin:auto;
+      text-align: center;
+    }
+
+    .imagewrapper
+    {
+      display: inline-block;
+      border-radius:10px;
+      margin:35px;
+     
+    }
+    .imagewrapper img
+    {
+      
+      border-radius: 30px;
+       max-height:350px;
+      max-width:350px;
+
+    }
+    .button-wrapper
+    {
+      margin-top:10px;
+      margin-bottom:30px;
+    }
+
+    .btn
+    {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top:15px;
+  outline:none;
+  font-weight:900;
+    }
+    #title
+    {
+      margin-top:5px;
+      margin-bottom:10px;
+      margin-left:5px;
+      margin-right:5px;
+      font-size: 30px;
+    }
+    h2
+    {
+      margin-bottom:5px;
+    }
+
+    @media only screen and (max-width: 460px) {
+  .imagewrapper img
+    {
+      
+      border-radius: 20px;
+       max-height:120px;
+      max-width:120px;
+
+    }
+
+     #title
+    {
+      font-size:28px;
+    }
+
+    .button-wrapper
+    {
+      
+      margin-top:15px;
+    }
+
+    .imagewrapper
+    {
+      
+      margin:35px;
+     
+    }
+
+
+}
+
+ @media only screen and (max-width: 400px) {
+  .imagewrapper
+    {
+      
+      margin: 40px 15px;
+     
+    }
+    }
+body
+    {
+      background: #cce0f2;
+    }
