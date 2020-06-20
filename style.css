@@ -3,7 +3,8 @@
       margin:0;
       padding:0;
       box-sizing: border-box;
-      font:normal 28px 'Fugaz One', cursive;
+      font-family: Andale Mono, monospace;
+      font-weight:600;
     }
     .container
     {
